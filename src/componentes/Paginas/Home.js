@@ -5,8 +5,8 @@ import { Box, Button, Typography } from "@mui/material";
 
 function Home(){
     return(
-        <Box sx={{display:"flex", padding:"1vh", justifyContent:"space-around", height:"100%"}}>
-            <Box sx={{ width:"50%", marginTop:"4vh" }}>
+        <Box sx={{display:"flex",  alignItems:"center", padding:"1vh", justifyContent:"space-around", height:"100%"}}>
+            <Box sx={{ width:"50%"}}>
                 <Box>
                     <Typography variant="body1" color="black" sx={{m:1,
                         fontSize: "clamp(1.4em, 4vw, 5em)",

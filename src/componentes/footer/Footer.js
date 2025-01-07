@@ -57,10 +57,23 @@ function Footer(){
                         fontSize: "clamp(0.25em, 0.8vw, 2.5em)",
                         whiteSpace: "pre",
                     }}>
-                        Important link <br/><br/><br/>
-                        Facebook                    Career<br/><br/>
-                        Twitter                         Support<br/><br/>
-                        Instagram                   Privacy policy
+                        <Box sx={{display:"flex", flexDirection:"column", gap:"4.2vw"}}>
+                            Important link
+                            <Box sx={{display:"flex", flexDirection:"column", gap:"2.2vw"}}>
+                                <Box sx={{display:"flex", flexDirection:"row", gap:"4.5vw;"}}>
+                                    <span>Facebook</span>
+                                    <span>Carrer</span>
+                                </Box>
+                                <Box sx={{display:"flex", flexDirection:"row", gap:"5.7vw;"}}>
+                                    <span>Twitter</span>
+                                    <span>Support</span>
+                                </Box>
+                                <Box sx={{display:"flex", flexDirection:"row", gap:"4.2vw;"}}>
+                                    <span>Instagram</span>
+                                    <span> Privacy policy</span>
+                                </Box>
+                            </Box>
+                        </Box>
                     </Typography>
                 </Grid2>
                 <Grid2 size={2} sx={{
